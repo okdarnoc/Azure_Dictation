@@ -25,13 +25,13 @@ Obtain an Azure Cognitive Services subscription key and endpoint. You can create
 
 Create a configuration file (config.json) in the same directory as the script, with the following structure:
 
-json
-Copy code
-{
+
+```
   "subscription_key": "YOUR_SUBSCRIPTION_KEY",
   "region": "YOUR_REGION",
   "language": "LANGUAGE_CODE"
-}
+```
+
 Replace YOUR_SUBSCRIPTION_KEY with your Azure subscription key, YOUR_REGION with the region of your subscription, and LANGUAGE_CODE with the language code of the audio input file (e.g., "en-US" for English-US).
 
 ## Running the Script
