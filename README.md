@@ -19,12 +19,11 @@ This program uses the Azure Cognitive Services Speech API to transcribe audio fi
 
 
 ## Getting Started
-Clone this repository to your local machine or download the script file (script.py).
+Clone this repository to your local machine or download the script(azuredictation.py).
 
 Obtain an Azure Cognitive Services subscription key and endpoint. You can create a free trial subscription on the Azure portal.
 
-Create a configuration file (config.json) in the same directory as the script, with the following structure:
-
+Run the script and create a configuration file (config.json) in the same directory as the script, with the following structure:
 
 ```
   "subscription_key": "YOUR_SUBSCRIPTION_KEY",
